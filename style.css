@@ -178,8 +178,12 @@ a{
     margin-bottom: 4rem;
     border-radius: 50%;
     background-color: #ECF0F0;
+    transition: transform .2s;
 }
 
+.tool-block:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 .tool-img{
     height: 7rem;
 }
