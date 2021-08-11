@@ -290,6 +290,7 @@ footer{
     align-items: center;
     justify-content: center;
     color: var(--white);
+    
 }
 
 @media only screen and (max-width: 1460px){
@@ -396,4 +397,13 @@ footer{
   .social-links a:hover {
     transform: translateY(-10px);
   }
+
   
+  #hyperlink{
+      color: #1ABC9C;
+  }
+  
+  #hyperlink:hover{
+      color: #bc1aa1;
+
+  }
