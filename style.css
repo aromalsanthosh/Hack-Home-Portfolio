@@ -319,22 +319,20 @@ footer{
 @media only screen and (max-width: 500px){
     .hero{
         min-width: 100%;
-        /* margin-top: 20px; */
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     .social-links{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
         max-width: 90%;
         margin-top: 5rem;
     }
     .social-links a{
-        margin: 10px 10px !important ;
-        width: 60px;
-        height: 60px;
-    }
-    
+        margin: 5px 10px !important ;
+    }    
 } 
 .hero {
     width: 50%;
