@@ -315,7 +315,26 @@ footer{
         max-width: 100%;
     }
 }
-
+@media only screen and (max-width: 500px){
+    .hero{
+        min-width: 100%;
+        /* margin-top: 20px; */
+    }
+    .social-links{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        max-width: 90%;
+        margin-top: 5rem;
+    }
+    .social-links a{
+        margin: 10px 10px !important ;
+        width: 60px;
+        height: 60px;
+    }
+    
+} 
 .hero {
     width: 50%;
     height: 50vh;
