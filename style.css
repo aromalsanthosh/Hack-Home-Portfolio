@@ -397,11 +397,11 @@ footer{
   }
 
   
-  #hyperlink{
+  .hyperlink{
       color: #1ABC9C;
   }
   
-  #hyperlink:hover{
+  .hyperlink:hover{
       color: #bc1aa1;
 
   }
